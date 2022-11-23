@@ -1,0 +1,80 @@
+.fs-login {
+    background-image: url("../../Images/Login-Page-Bg.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+.login-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.login-panel {
+    width: 40rem;
+    background-color: white;
+    border-radius: 10px;
+    height: 45rem;
+    border: 2.5px solid green;
+}
+.login-content-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.logo-section {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.login-logo {
+    height: 10rem;
+    width: 10rem;
+}
+.form-grp {
+    display: flex;
+    flex-direction: column;
+}
+.login-input {
+    width: 35rem;
+    height: 4rem;
+    margin: 1.5rem auto 1.5rem auto;
+    outline-color: #ffbf00;
+    padding-left: 1rem;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+.login-btn {
+    width: 35rem;
+    height: 4rem;
+    margin: 1.5rem auto 1.5rem auto;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffbf00;
+    cursor: pointer;
+}
+.login-btn:hover {
+    box-shadow: 0 0 3px #ffbf00;
+    transform: translate(0, -2px);
+}
+.btm-msg, .top-msg {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+.signup-link {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: green;
+}
+.signup-link:hover {
+    text-decoration: underline;
+}
+.navbar-container {
+    display: hidden;
+}

@@ -1,0 +1,25 @@
+.fs-ourPeaksPage {
+    height: 100vh;
+    width: 100vw;
+    /* border: 1rem solid green; */
+    display: flex;
+}
+.ourPeaks-content {
+    width: 100%;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid limegreen; */
+}
+.search-section {
+    /* border: 2px solid dodgerblue; */
+    width: 100%;
+    padding: 2rem;
+    /* margin-top: 7rem; */
+}
+.card-section {
+    /* border: 2px solid lightcoral; */
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

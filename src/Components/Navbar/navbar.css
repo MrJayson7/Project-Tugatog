@@ -1,0 +1,40 @@
+.navbar-container {
+    position: fixed;
+    height: 7rem;
+    z-index: 2;
+    width: 100vw;
+    background-color: black;
+}
+.menu-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 7rem;
+    width: 10rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.navlink-item {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navlink-item:hover, .navlink-itemright:hover {
+    color: #ffbf00;
+    transition: .3s ease-out;
+}
